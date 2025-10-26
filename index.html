@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andre Yousef Cui - Resume</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    .resume {
+      width: 850px;
+      background: #fff;
+      margin: 40px auto;
+      padding: 40px 60px;
+      border: 2px solid #000;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      border-bottom: 2px solid #000;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    header .info h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .contact a {
+      color: #000;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin: 5px 0 0 20px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 65% 35%;
+      gap: 25px;
+    }
+
+    .right-column {
+      border-left: 1px solid #ccc;
+      padding-left: 20px;
+    }
+
+    .job {
+      margin-bottom: 10px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .job-year {
+      float: right;
+      font-style: italic;
+    }
+
+    /* --- View My Work Button --- */
+    .work-button {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+
+    .work-button:hover {
+      background-color: #444;
+      transform: scale(1.05);
+    }
+
+    @media screen and (max-width: 900px) {
+      .resume {
+        width: 95%;
+        padding: 20px;
+      }
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="resume">
+  <header>
+    <img src="Yousef-photo.jpg" alt="Profile Photo" />
+    <div class="info">
+      <h1>ANDRE YOUSEF T. CUI</h1>
+      <div class="contact">
+        <a href="mailto:yousefcui@mail.com">yousefcui@mail.com</a> |
+        <a href="tel:09993107927">09993107927</a> |
+        <a href="https://www.facebook.com/yousef.cui" target="_blank">Facebook Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>ABOUT ME</h2>
+    <p>
+      I am currently seeking a student internship where I can apply my skills, gain hands-on experience, and further develop my abilities in a real-world environment.
+      I am an eager and passionate individual with a relentless drive for personal and professional growth. With a strong aspiration to 
+      become a Game Developer my life-long dream, I am dedicated to mastering game design, development, and the creation of game assets. For the past eight months, 
+      I have been consistently learning and improving my skills in Unreal Engine 5.5, focusing on gameplay mechanics, asset integration, and visual effects. I thrive on challenges, 
+      continuously expanding my skills and knowledge, and actively seeking opportunities to contribute to creative game projects and organizational success. 
+      I aim to leverage my creativity and technical expertise to achieve goals, exceed expectations, and bring engaging ideas to life through technology and design.
+    </p>
+
+    <div style="text-align:center;">
+      <a href="WorkSamples.html" class="work-button">View My Work/Portfolio</a>
+    </div>
+  </section>
+
+  <div class="two-column">
+    <div class="left-column">
+      <section>
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+
+        <div class="job">
+          <span class="job-title">Student Volunteer - Adu Center for Innovative Learning</span>
+          <span class="job-year">2022</span>
+          <ul>
+            <li>Assisted faculty members in the conduct of “Hi-Flex Natin To!”</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <span class="job-title">Software Developer - Barangay Siblot, Philippine Pangasin</span>
+          <span class="job-year">2024</span>
+          <ul>
+            <li>Made an ASL Management System Software registry on barangay inhabitants (Coded Front-end).</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <span class="job-title">Participated in Capture the Flag Hack for Gov. 2</span>
+          <span class="job-year">2023</span>
+        </div>  
+
+        <div class="job">
+          <span class="job-title">Top Performer in Networking Certification Exam</span>
+          <span class="job-year">2025</span>
+        </div>
+      </section>    
+
+      <section>
+        <h2>EDUCATION</h2>
+        <p><strong>Hansel and Gretel School of Cavite</strong><br>2005–2013<br>Most Behave (Kinder to Grade 6)</p>
+        <p><strong>University of Perpetual Help Molino Campus</strong><br>2013–2015</p>   
+        <p><strong>Imus Institute of Science and Technology</strong><br>2015–2019<br>STEM Graduate, With Honors and Most Behave</p>
+        <p><strong>Adamson University</strong><br>2019–Present<br>Previously Bachelor of Science Mechanical Engineer transferred to Bachelor of Science in Computer Science</p>
+      </section>
+    </div>
+
+    <div class="right-column">
+      <section>
+        <h2>TECHNICAL SKILLS</h2>
+        <ul>
+          <li>Computer Skills</li>
+          <li>Unreal Engine 5 (Good)</li>
+          <li>Unity</li>
+          <li>Blender</li>
+          <li>Microsoft Office Applications</li>
+          <li>Adobe Photoshop (Good)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>OTHER SKILLS</h2>
+        <ul>
+          <li>Interpersonal skills</li>
+          <li>Spatial skills</li>
+          <li>Intrapersonal skills</li>
+          <li>Willingness to learn</li>
+          <li>Adaptability</li>
+          <li>Fast typer (77 wpm)</li>
+          <li>Creative</li>  
+          <li>Persistency</li>
+          <li>Strong Willpower</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Programming Languages</h2>
+        <ul>
+          <li>C#</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>Filipino</li>
+          <li>English</li>
+          <li>Russian (Learning)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>PERSONAL INFORMATION</h2>
+        <p><strong>Gender:</strong> Male<br>
+           <strong>Age:</strong> 25 years old<br>
+           <strong>Birthdate:</strong> July 23, 2000<br>
+           <strong>Birthplace:</strong> Cebu City<br>
+           <strong>Religion:</strong> Islam<br>
+           <strong>Nationality:</strong> Filipino</p>
+      </section>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
